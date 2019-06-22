@@ -1,0 +1,35 @@
+
+/*设置a标签属性*/
+a {
+    font-size: 40px;
+    color: #4de2d5;
+}
+h1 {
+    color: #4de2d5;
+}
+p {
+
+}
+/*控制字体样式*/
+.class1 {
+    /*letter-spacing: 10px;*/
+    font-family: 华康少女字体;
+}
+
+div {
+    /*div里文本内容居中*/
+    text-align: center;
+
+}
+
+/*设置背景*/
+body {
+    /*加载背景图 不平铺 垂直 水平均居中*/
+    background:url(../img/main-img.jpg)  no-repeat center center;
+    /*背景图基于容器大小伸缩*/
+    background-size:cover;
+    /*当内容高度大于图片高度时，背景图像的位置相对于viewport固定*/
+    background-attachment:fixed;
+    /*设置背景颜色，背景图加载过程中会显示背景色*/
+    background-color: #cccccc;
+}
