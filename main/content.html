@@ -2,20 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<!--    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">-->
     <title>你想要看什么</title>
+    <style type="text/css">
+        html,body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .body {
+            background: url("../img/main-img.jpg" ) no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            filter:progid:DXImageTransform.Microsoft.alphaImageLoader(src='../img/main-img.jpg',sizingMethod= scale);
+        }
+    </style>
 <!--    外链样式-->
-    <link rel="stylesheet" type="text/css" href="../css/a.css">
+<!--    <link rel="stylesheet" type="text/css" href="../css/a.css">-->
 
 </head>
 
-<body>
-<p class="class1" >缺少华康少女字体点击下载（windows）</p>
+<body  class="body">
+<div >
+<!--        字体下载提示-->
+        <p class="class1" >缺少华康少女字体点击下载（windows）</p>
+<!--        字体下载ui-->
+        <a href="http://www.zitiweb.com/down/459"
+           target="_blank"><img src="../img/download.jpg" height="64" width="64" alt="华康少女字体下载"/></a>
 
-<a href="http://www.zitiweb.com/down/459"
-   target="_blank"><img src="../img/download.jpg" height="64" width="64" alt="华康少女字体下载"/></a>
+<!--树莓派项目页-->
+        <a href="../../pi-dashboard/"><p class="class1">树莓派监控</p></a>
 
+</div>
 
-<a href="../../pi-dashboard/"><p class="class1">树莓派监控</p></a>
 
 </body>
 </html>
